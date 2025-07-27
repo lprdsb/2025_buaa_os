@@ -46,7 +46,7 @@
 
 点击我的资产
 
-![image-20250727222051007](img\image-20250727222051007.png)
+![image-20250727222051007](https://github.com/lprdsb/2025_buaa_os/blob/main/img\image-20250727222051007.png)
 
 找到ip那一行
 
