@@ -1,0 +1,5 @@
+Host os-lab
+    HostName lab.os.buaa.edu.cn
+    User 114514@git@114.514.1919.810
+    Port 2222
+    IdentityFile C:\Users\Administrator\.ssh\114514-jumpserver.pem
