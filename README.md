@@ -46,11 +46,11 @@
 
 点击我的资产
 
-![image-20250727222051007](F:\Documents\Workspace\Os\新建文件夹\img\image-20250727222051007.png)
+![image-20250727222051007](img\image-20250727222051007.png)
 
 找到ip那一行
 
-![image-20250727222215416](F:\Documents\Workspace\Os\新建文件夹\img\image-20250727222215416.png)
+![image-20250727222215416](img\image-20250727222215416.png)
 
 记录你的IP，比如这里是114.514.1919.810，以后用\<IP\>来表示
 
@@ -60,11 +60,11 @@
 
 然后点击个人信息
 
-![image-20250727222422964](F:\Documents\Workspace\Os\新建文件夹\img\image-20250727222422964.png)
+![image-20250727222422964](img\image-20250727222422964.png)
 
 选择重置并下载SSH密钥
 
-![image-20250727222453161](F:\Documents\Workspace\Os\新建文件夹\img\image-20250727222453161.png)
+![image-20250727222453161](img\image-20250727222453161.png)
 
 你会得到一个文件叫做`<IP>-jumpserver.pem`
 
@@ -82,17 +82,17 @@
 
 里面的东西是这样
 
-![image-20250727222915588](F:\Documents\Workspace\Os\新建文件夹\img\image-20250727222915588.png)
+![image-20250727222915588](img\image-20250727222915588.png)
 
 假设这个文件路径是`F:\Documents\Downloads\OpenSSH-Win32\OpenSSH-Win32`，以后用\<PATH\>来代指这玩意
 
 ## 添加环境变量
 
-![image-20250727223228585](F:\Documents\Workspace\Os\新建文件夹\img\image-20250727223228585.png)
+![image-20250727223228585](img\image-20250727223228585.png)
 
 双击这一行
 
-![image-20250727223331143](F:\Documents\Workspace\Os\新建文件夹\img\image-20250727223331143.png)
+![image-20250727223331143](img\image-20250727223331143.png)
 
 在末尾加上一个`;`，然后输入\<PATH\>
 
@@ -104,7 +104,7 @@
 
 会得到
 
-![image-20250727223455143](F:\Documents\Workspace\Os\新建文件夹\image-20250727223455143.png)
+![image-20250727223455143](img\image-20250727223455143.png)
 
 说明安装好了
 
@@ -118,7 +118,7 @@
 
 就像这样
 
-![image-20250727223820750](F:\Documents\Workspace\Os\新建文件夹\img\image-20250727223820750.png)
+![image-20250727223820750](img\image-20250727223820750.png)
 
 用记事本打开，编辑
 
@@ -154,9 +154,9 @@ Host os-lab
 
 在cmd输入`ssh os-lab`
 
-![image-20250727224239809](F:\Documents\Workspace\Os\新建文件夹\img\image-20250727224239809.png)
+![image-20250727224239809](img\image-20250727224239809.png)
 
-![image-20250727224544708](F:\Documents\Workspace\Os\新建文件夹\img\image-20250727224544708.png)
+![image-20250727224544708](img\image-20250727224544708.png)
 
 注意第一次连接会冒出一大段英文，记得输一个`yes`就行了。
 
@@ -170,7 +170,7 @@ Host os-lab
 
 ## 安装插件
 
-![image-20250727224809275](F:\Documents\Workspace\Os\新建文件夹\img\image-20250727224809275.png)
+![image-20250727224809275](img\image-20250727224809275.png)
 
 这样就可以离线安装remote-ssh插件，注意仓库里的这个和vscode版本是配套的其他版本无法装上
 
@@ -203,7 +203,7 @@ rm -r tmp
 
 这个时候你可以在通过指令`ls ~/.vscode-server/bin`看到该目录下有对应的文件夹
 
-![image-20250727225500681](F:\Documents\Workspace\Os\新建文件夹\img\image-20250727225500681.png)
+![image-20250727225500681](img\image-20250727225500681.png)
 
 
 
@@ -217,7 +217,7 @@ rm -r tmp
 
 然后通过插件连接即可连接到服务器
 
-![image-20250727225658678](F:\Documents\Workspace\Os\新建文件夹\img\image-20250727225658678.png)
+![image-20250727225658678](img\image-20250727225658678.png)
 
 然后就可以突破机房的技术封锁了（
 
